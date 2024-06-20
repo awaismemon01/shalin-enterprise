@@ -254,7 +254,7 @@ hr:after {
 }
 
 .clearfix {
-  *zoom: 1;
+  zoom: 1;
 }
 
 .clearfix:before,
@@ -2653,11 +2653,11 @@ nav {
 }
 
 .maia-nav {
-  background: #26292be6;
+  background: #000000e6;
   position: fixed;
   width: 100%;
   z-index: 999;
-  opacity: 0.9 !important;
+  /* opacity: 0.9 !important; */
   margin-top: 48px;
 }
 
