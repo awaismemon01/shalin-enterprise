@@ -2365,6 +2365,16 @@ ul.pro-qu li {
 }
 }
 
+@media (max-width:400px){
+  .header-font{
+    font-size:13px;
+  }
+
+  body img{
+    border-radius:18px;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
   .carousel-inner .active.left {
     left: -33.3%;
