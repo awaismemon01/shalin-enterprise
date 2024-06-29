@@ -385,6 +385,15 @@ body img {
   border: none;
   max-width: 100%;
   height: auto;
+  border-radius: 22px;
+}
+
+.qr-image{
+  /* border-top-left-radius: 35px !important;
+  border-top-right-radius: 29px !important;
+  border-bottom-left-radius: 30px !important;
+  border-bottom-right-radius: 25px !important; */
+  max-width: 70% !important;
 }
 
 h1,
@@ -543,7 +552,12 @@ li {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 0 !important;
-  width: 210px;
+  width: 300px;
+}
+
+.non-clickable-image {
+  pointer-events: none;
+  user-select: none;
 }
 
 .home-logo {
@@ -1261,7 +1275,7 @@ footer h3 {
 }
 
 footer p {
-  font-size: 16px;
+  font-size: 17px;
   color: #fff;
 }
 
@@ -1567,7 +1581,7 @@ h4.quality-title:after {
 }
 
 .phone {
-  padding-bottom: 6px;
+  padding-bottom: 8px;
   padding-top: 1px;
   margin-bottom: 6px;
 }
